@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/lblDateAndTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#0000ff"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:padding="5dp"/>
+    <Button
+        android:id="@+id/btnDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tarihi Ayarla" />
+    <Button
+        android:id="@+id/btnTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Zamanı Ayarla" />
+</LinearLayout>
